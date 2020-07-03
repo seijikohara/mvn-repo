@@ -37,7 +37,7 @@
 
 	<properties>
 		<java.version>1.6</java.version>
-		<spring.version>5.2.7.RELEASE</spring.version>
+		<spring.version>4.1.6.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<github.global.server>github</github.global.server>
 	</properties>
@@ -51,7 +51,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.10</version>
+			<version>3.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -71,17 +71,17 @@
 		<dependency>
 			<groupId>org.dbunit</groupId>
 			<artifactId>dbunit</artifactId>
-			<version>2.7.0</version>
+			<version>2.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-junit</artifactId>
-			<version>2.0.0.0</version>
+			<version>1.0.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
-			<version>3.3.3</version>
+			<version>1.9.0</version>
 		</dependency>
 	</dependencies>
 
@@ -90,7 +90,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.3</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
@@ -99,7 +99,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.3</version>
+				<version>2.5.2</version>
 				<configuration>
 					<goals>deploy</goals>
 					<pushChanges>false</pushChanges>
