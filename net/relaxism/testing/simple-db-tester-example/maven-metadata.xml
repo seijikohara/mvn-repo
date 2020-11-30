@@ -3,10 +3,10 @@
   <groupId>net.relaxism.testing</groupId>
   <artifactId>simple-db-tester-example</artifactId>
   <versioning>
-    <release>0.2.0</release>
+    <release>0.2.1</release>
     <versions>
-      <version>0.2.0</version>
+      <version>0.2.1</version>
     </versions>
-    <lastUpdated>20201130003017</lastUpdated>
+    <lastUpdated>20201130011334</lastUpdated>
   </versioning>
 </metadata>
